@@ -1,0 +1,51 @@
+strengths,metrics,weighting
+finishing,NPxG/ shot_z,0.35
+finishing,"Finishing, %_z",0.65
+aerial ability,Aerial duels per 90_z,0.6
+aerial ability,"Aerial duels won, %_z",0.4
+dribbling,Dribbles per 90_z,0.45
+dribbling,"Successful dribbles, %_z",0.4
+dribbling,Fouls suffered per 90_z,0.15
+creativity,xA per 100 passes_z,0.5
+creativity,Passes to penalty area per 90_z,0.15
+creativity,"Accurate passes to penalty area, %_z",0.2
+creativity,Through passes per 90_z,0.15
+progressive passing,Progressive passes per 100 passes_z,0.6
+progressive passing,"Accurate progressive passes, %_z",0.4
+ball carrying,Progressive runs per 90_z,0.45
+ball carrying,Accelerations per 90_z,0.25
+ball carrying,Dribbles per 90_z,0.15
+ball carrying,"Successful dribbles, %_z",0.1
+ball carrying,Fouls suffered per 90_z,0.05
+defensive duels,Defensive duels per 90_z,0.4
+defensive duels,"Defensive duels won, %_z",0.6
+interceptions,PAdj Interceptions_z,1
+blocking shots,Shots blocked per 90_z,1
+offensive duels,Offensive duels per 90_z,0.4
+offensive duels,"Offensive duels won, %_z",0.6
+goal threat,NPxG per 90_z,0.5
+goal threat,NPxG/ shot_z,0.25
+goal threat,NPxG/ touch_z,0.25
+crossing,Crosses per 90_z,0.4
+crossing,"Accurate crosses, %_z",0.6
+passing,Passes per 90_z,0.25
+passing,"Accurate passes, %_z",0.35
+passing,"Accurate progressive passes, %_z",0.25
+passing,Progressive passes per 100 passes_z,0.15
+defensive positioning,Shots blocked per 90_z,0.4
+defensive positioning,PAdj Interceptions_z,0.35
+defensive positioning,Fouls per 90_z,-0.25
+technical ability,"Accurate passes, %_z",0.3
+technical ability,Dribbles per 90_z,0.1
+technical ability,"Successful dribbles, %_z",0.3
+technical ability,Accelerations per 90_z,0.2
+technical ability,"Accurate passes to penalty area, %_z",0.1
+duels,Defensive duels per 90_z,0.1
+duels,"Defensive duels won, %_z",0.23
+duels,Offensive duels per 90_z,0.1
+duels,"Offensive duels won, %_z",0.23
+duels,Aerial duels per 90_z,0.1
+duels,"Aerial duels won, %_z",0.24
+link up play,Received long passes per 90_z,0.15
+link up play,Received passes per 90_z,0.6
+link up play,"Bounce passes, %_z",0.25
