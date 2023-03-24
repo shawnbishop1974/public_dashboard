@@ -41,9 +41,9 @@ if league.lower() == 'championship':
 elif league.lower() == 'premier league':
 	file_part_1 = 'PL'
 elif league.lower() == 'league one':
-    file_part_1 = 'L1'
+	file_part_1 = 'L1'
 elif league.lower() == 'league two':
-    file_part_1 = 'L2'
+	file_part_1 = 'L2'
 
 if position.lower() =='centre-midfielder':
 	file_part_2 = 'CM'
@@ -52,11 +52,11 @@ elif position.lower() == 'winger':
 elif position.lower() == 'striker':
 	file_part_2 = 'ST'
 elif position.lower() == 'centre-back':
-    file_part_2 = 'CB'
+	file_part_2 = 'CB'
 elif position.lower() == 'full-back':
-    file_part_2 = 'FB'
+	file_part_2 = 'FB'
 elif position.lower() == 'attacking-midfielder':
-    file_part_2 = 'AM'
+	file_part_2 = 'AM'
 
 file_part_3 = season[-2:]
 
