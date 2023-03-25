@@ -65,7 +65,7 @@ elif position.lower() == 'attacking-midfielder':
 
 file_part_3 = season[-2:]
 
-file = file_part_1 + ' '+file_part_2+ ' '+file_part_3/
+file = file_part_1 + ' '+file_part_2+ ' '+file_part_3
 
 df = pd.read_csv(file+'.csv')
 
