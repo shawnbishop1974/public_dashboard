@@ -28,8 +28,8 @@ mapper2 = plt.cm.ScalarMappable(norm=norm, cmap=my_dullmap)
 st.header('Percentile Dashboard App')
 st.write('by @analyticswba')
 
-st.write("\n\n\nA tool to show performance levels for any outfield player in England's top four leagues over the past 3 seasons.")
-st.write('\n\nPlease set the parameters and click run to see your visualisation.\n\nIt is recommended to set minimum number of 90s to at least a third of the bar.')
+st.write("\n\n\nA tool to show performance levels for any outfield player in England's top four leagues over the past 3 seasons.\nData up to date as at 24/03/23")
+st.write('\n\nPlease set the parameters and click run to see your visualisation.\n\nIt is recommended to set minimum number of 90s to at least a third /of the bar.')
 
 season  = st.selectbox('Select season', options = ['2022/23','2021/22','2020/21'])
 
@@ -65,7 +65,7 @@ elif position.lower() == 'attacking-midfielder':
 
 file_part_3 = season[-2:]
 
-file = file_part_1 + ' '+file_part_2+ ' '+file_part_3
+file = file_part_1 + ' '+file_part_2+ ' '+file_part_3/
 
 df = pd.read_csv(file+'.csv')
 
