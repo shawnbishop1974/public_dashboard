@@ -932,6 +932,3 @@ ax6.plot([min_x_2,max_x_2],[mean_y_2,mean_y_2], color='w',lw=4,zorder=6,alpha  =
 ax6.text(min_x_2,max_y_2*1.05,title_2,size=30,c='w',ha='left',va='bottom',**hfont)
 
 st.pyplot(fig)
-
-st.text('Good scores:\n'+str(good_scores['Metric'].unique()).title())
-st.text('Bad scores:\n'+str(bad_scores['Metric'].unique()).title())
