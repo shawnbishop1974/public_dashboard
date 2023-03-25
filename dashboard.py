@@ -25,8 +25,10 @@ norm = mpl.colors.Normalize(vmin=0, vmax=100,clip = True)
 mapper = plt.cm.ScalarMappable(norm=norm, cmap=my_cmap)
 mapper2 = plt.cm.ScalarMappable(norm=norm, cmap=my_dullmap)
         
+st.header('Percentile Dashboard App')
+st.write('by @analyticswba')
 
-
+st.write('\n\n\nPlease fill out the parameters and click run to see your visualisation\n\nIt is recommended to set minimum number of 90s to at least a third of the bar')
 
 season  = st.selectbox('Select season', options = ['2022/23','2021/22','2020/21'])
 
